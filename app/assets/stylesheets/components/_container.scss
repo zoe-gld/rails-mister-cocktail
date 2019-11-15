@@ -6,7 +6,7 @@
 .show-container {
   padding-top: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 85vw;
 }
@@ -18,6 +18,11 @@
 
 .form-container {
   flex: 0 0 30%;
+  background-color: rgba(250,250,250,0.2);
+}
+
+.review-container {
+  flex: 0 0 35%;
   background-color: rgba(250,250,250,0.2);
 }
 
