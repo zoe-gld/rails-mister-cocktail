@@ -1,0 +1,25 @@
+<%= notice %>
+<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2025&q=80)">
+  <%= @cocktail.name %>
+</div>
+
+<div class="show-container">
+
+<div class="list-container">
+  <ul class="list-group">
+    <% @cocktail.doses.each do |dose| %>
+      <li class="list-group-item">
+        <%= dose.description %> of <%= dose.ingredient.name %> <%= link_to('💣', cocktail_dose_path(@cocktail, dose), method: :delete, data: {confirm: "Are you sure?"}) %>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+<hr>
+
+<div class="form-container">
+  <h5>Add a new ingredient</h2>
+  <%= render 'cocktails/dose-form' %>
+</div>
+
+</div>

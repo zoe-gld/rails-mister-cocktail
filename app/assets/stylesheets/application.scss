@@ -11,3 +11,18 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+main {
+  padding : 20px;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1527271982979-83fea3eb3582?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80');
+  background-size: cover;
+  background-position: middle;
+}
+
+.btn {
+  color: white;
+}
