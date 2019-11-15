@@ -6,20 +6,22 @@
 .show-container {
   padding-top: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
-  max-width: 80vw;
+  max-width: 85vw;
 }
 
 .list-container {
-  flex: 0 0 50%;
+  flex: 0 0 30%;
 }
 
 .form-container {
   flex: 0 0 30%;
+  background-color: rgba(250,250,250,0.2);
 }
 
 .cocktail-container {
   margin: 0 auto;
   max-width: 40vw;
+  background-color: rgba(250,250,250,0.2);
 }

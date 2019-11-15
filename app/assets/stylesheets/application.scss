@@ -18,7 +18,8 @@ main {
 }
 
 body {
-  background-image: url('https://images.unsplash.com/photo-1527271982979-83fea3eb3582?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=976&q=80');
+  background-image: url('https://images.unsplash.com/photo-1486428263684-28ec9e4f2584?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80');
+  background-position: center;
   background-size: cover;
   background-position: middle;
 }
@@ -28,5 +29,5 @@ body {
 }
 
 a {
-  color: black
+  color: black;
 }
