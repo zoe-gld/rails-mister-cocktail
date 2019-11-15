@@ -61,3 +61,5 @@ gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
 
 gem 'rest-client'
+
+gem 'dotenv-rails', groups: [:development, :test]
