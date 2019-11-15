@@ -6,13 +6,14 @@
 .show-container {
   padding-top: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
   max-width: 85vw;
 }
 
 .list-container {
   flex: 0 0 30%;
+  background-color: rgba(250,250,250,0.5);
 }
 
 .form-container {
@@ -25,3 +26,5 @@
   max-width: 40vw;
   background-color: rgba(250,250,250,0.2);
 }
+
+

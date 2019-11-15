@@ -16,6 +16,21 @@
         </li>
       <% end %>
     </ul>
+
+    <%= render 'cocktails/review-form' %>
+  </div>
+
+  <div class="review-container">
+    <ul class="list-group">
+      <% @cocktail.reviews.each do |review| %>
+        <li class="list-group-item">
+          <%= '⭐️' * review.rating %> <%= review.content %> written by <%= review.author %>
+          <%= link_to cocktail_review_path(@cocktail, review), method: :delete, data: {confirm: "Are you sure?"} do %>
+              <i class="far fa-trash-alt"></i>
+          <% end %>
+        </li>
+      <% end %>
+    </ul>
   </div>
 
   <div class="form-container">
