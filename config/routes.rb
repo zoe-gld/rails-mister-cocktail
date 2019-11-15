@@ -5,6 +5,4 @@ Rails.application.routes.draw do
     resources :reviews, only: %i[create destroy]
   end
 
-  # post 'cocktails/:id', to: "doses#create"
-
 end
